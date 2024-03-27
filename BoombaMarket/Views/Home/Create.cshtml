@@ -1,0 +1,38 @@
+﻿@model BoombaMarket.Models.Product
+@{
+    ViewBag.Title = "Добавление продукта";
+}
+
+<form asp-action="Create" asp-controller="Home" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">Название продукта</label>
+        <input type="text" asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label">Описание продукта</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="control-label">Цена</label>
+        <input type="number" asp-for="Price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Sale" class="control-label">Скидка</label>
+        <input type="number" asp-for="Sale" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="UserId" class="control-label">ID Пользователя</label>
+        <input type="number" asp-for="UserId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoryId" class="control-label">Категория</label>
+        <input type="number" asp-for="CategoryId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="PhotoProducts" class="control-label">Фотографии продукта</label>
+        <input type="file" name="Photo" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Добавить продукт" class="btn btn-default" />
+    </div>
+</form>

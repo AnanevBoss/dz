@@ -1,0 +1,30 @@
+﻿@model BoombaMarket.Models.Product
+@{
+    ViewBag.Title = "Продукт: " + Model.Name;
+}
+
+<h2>Продукт @Model.Name</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Индентификатор продукта</dt>
+        <dd>@Model.IdProduct</dd>
+
+        <dt>Название</dt>
+        <dd>@Model.Name</dd>
+
+        <dt>Описание</dt>
+        <dd>@Model.Description</dd>
+        
+        <dt>Цена</dt>
+        <dd>@Model.Price</dd>
+        
+        <dt>Скидка</dt>
+        <dd>@Model.Sale</dd>
+        
+        <dt>Идентификатор пользователя</dt>
+        <dd>@Model.UserId</dd>
+        
+        <dt>Идентификатор категории</dt>
+        <dd>@Model.CategoryId</dd>
+    </dl>
+</div>

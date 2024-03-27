@@ -1,0 +1,131 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-mzxts8ei7j] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-mzxts8ei7j] {
+  color: #0077cc;
+}
+
+.btn-primary[b-mzxts8ei7j] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-mzxts8ei7j], .nav-pills .show > .nav-link[b-mzxts8ei7j] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-mzxts8ei7j] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-mzxts8ei7j] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-mzxts8ei7j] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-mzxts8ei7j] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-mzxts8ei7j] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.navbar[b-mzxts8ei7j] {
+    background-color: #BDD16F !important; /* Важно добавить !important для переопределения стилей Bootstrap */
+    height: 114px;
+    box-sizing: border-box;
+}
+
+
+.icons[b-mzxts8ei7j]{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.container-fluid[b-mzxts8ei7j]{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.search[b-mzxts8ei7j] {
+    border-radius: 15px;
+    width: 40vw;
+}
+
+.searchInput[b-mzxts8ei7j] {
+    border-radius: 15px;
+    width: 15vw;
+}
+
+.SignUpPopUp[b-mzxts8ei7j] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    background-color: #BDD16F;
+    border-radius: 30px;
+    border: solid 1px black;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 15px;
+    width: 500px;
+    height: 500px;
+}
+
+.center-text[b-mzxts8ei7j] {
+    text-align: center;
+}
+.SingInPopUp[b-mzxts8ei7j] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    background-color: #BDD16F;
+    border-radius: 30px;
+    border: solid 1px black;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 15px;
+    width: 500px;
+    height: 400px;
+}
+
+    .SingInPopUp form[b-mzxts8ei7j] {
+        width: 100%;
+    }
+.PopUp[b-mzxts8ei7j] {
+    display: none;
+    
+}
+
+.Inputcontainer[b-mzxts8ei7j]{
+
+}
